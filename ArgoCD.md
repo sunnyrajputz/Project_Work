@@ -8,9 +8,13 @@ This guide sets up a CI/CD pipeline using ArgoCD and GitHub, automating the depl
 # Prerequisites
 
 **Kubernetes Cluster:** A running Kubernetes cluster.
+
 **ArgoCD Installation:** ArgoCD should be installed on your Kubernetes cluster.
+
 **GitHub Repository:** A repository containing your application manifests (YAML files).
+
 **kubectl:** The Kubernetes command-line tool configured to interact with your cluster.
+
 **ArgoCD CLI:** The ArgoCD command-line interface installed locally.
 
 ## Step 1: Install ArgoCD on Kubernetes
