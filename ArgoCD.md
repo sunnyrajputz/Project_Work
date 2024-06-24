@@ -29,7 +29,7 @@ Get the initial admin password:
 ```
 kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.password}" | base64 -d
 ```
-**NOte:** Log in using the username **"admin"** and the password retrieved above.
+**Note:** Log in using the username **"admin"** and the password retrieved above.
 ## Step 4: Create an ArgoCD Project
 Create an ArgoCD project in your GitHub repository. This project will manage the deployment of your application. The project can be defined as follows:
 **project.yaml**
